@@ -74,6 +74,17 @@ The training loop is implemented using PyTorch with the tqdm library to track pr
 Epoch 1/100: 100%|██████████| 500/500 [00:20<00:00, 24.50batch/s, loss=0.056]
 End of Epoch 1: Train Loss 0.0456 
 ```
+### Sampling Molecular Structures
+Once the VAE model is trained, you can sample new molecular structures using the sample.py script. This script uses the pre-trained VAE model to generate new molecules by decoding latent space representations.
 
-### Sample output 
-After training the model, load the pretrained model to generate the molecules for the target of interest. Make sure the file is placed in the data folder. 
+To sample molecules, run:
+``` 
+python sample.py
+```
+This will generate new molecular structures based on the input SMILES strings provided in the dataset (egfr_targetset.smi). The script decodes the sampled latent vectors into SMILES strings and validates them using RDKit.
+
+1. Input: The input SMILES strings are located in the data/ directory (e.g., egfr_targetset.smi).
+2. Output: The generated SMILES strings and their validity (valid/invalid molecules) will be saved in two CSV files:
+mol_decoded.csv (list of generated SMILES)
+mol_validity_decoded.csv (list of generated SMILES along with validity)
+3. Latent Space: The latent space representation of the target dataset is saved in target_latent.pt.
