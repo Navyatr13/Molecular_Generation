@@ -42,11 +42,9 @@ def main():
     # Load pre-trained model
     model = load_pretrained_model(config, device)
 
-    # Input SMILES for sampling
-    smiles_in = []
-    with open(config['data']['dataset_path'], "r") as file:
-        for line in file:
-            smiles_in.append(line.strip('\n'))
+    smiles_df = pd.read_csv(smiles_csv_path)
+    smiles_list = smiles_df['SMILES'].tolist()  # Assuming the CSV has a column 'SMILES'
+    smiles_list = [preprocess_smiles(smi) for smi in smiles_list]
 
     # Sample molecules using the VAE
     recon_batch, latent_space, ohf = sample_molecules(model, smiles_in, config, device)
@@ -58,7 +56,7 @@ def main():
     save_results(mol_list, mol_list_val)
 
     # Save latent space for target dataset
-    torch.save(latent_space, 'target_latent_2.pt')
+    torch.save(latent_space, 'target_latent.pt')
 
 
 if __name__ == "__main__":
