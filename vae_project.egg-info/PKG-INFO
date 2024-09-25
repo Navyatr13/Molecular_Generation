@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vae_project
+Version: 0.1
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm

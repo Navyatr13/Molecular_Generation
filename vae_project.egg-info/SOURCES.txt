@@ -1,0 +1,8 @@
+README.md
+setup.py
+vae_project.egg-info/PKG-INFO
+vae_project.egg-info/SOURCES.txt
+vae_project.egg-info/dependency_links.txt
+vae_project.egg-info/entry_points.txt
+vae_project.egg-info/requires.txt
+vae_project.egg-info/top_level.txt
