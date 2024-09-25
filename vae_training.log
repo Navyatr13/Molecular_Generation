@@ -1,0 +1,50 @@
+2024-09-25 07:54:46,394 - INFO - VAE Training Started
+2024-09-25 07:54:46,394 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 07:54:53,331 - INFO - Data loaded and ready for training.
+2024-09-25 07:54:53,409 - INFO - Model and optimizer initialized.
+2024-09-25 07:54:55,679 - ERROR - Error during training: Using a target size (torch.Size([1050000])) that is different
+to the input size (torch.Size([30000, 35])) is deprecated.
+Please ensure they have the same size.
+2024-09-25 07:56:01,072 - INFO - VAE Training Started
+2024-09-25 07:56:01,072 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 07:56:07,358 - INFO - Data loaded and ready for training.
+2024-09-25 07:56:07,404 - INFO - Model and optimizer initialized.
+2024-09-25 07:56:09,421 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
+2024-09-25 07:56:23,200 - INFO - VAE Training Started
+2024-09-25 07:56:23,200 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 07:56:29,570 - INFO - Data loaded and ready for training.
+2024-09-25 07:56:29,648 - INFO - Model and optimizer initialized.
+2024-09-25 07:56:31,599 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
+2024-09-25 08:00:23,903 - INFO - VAE Training Started
+2024-09-25 08:00:23,903 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:00:30,237 - INFO - Data loaded and ready for training.
+2024-09-25 08:00:30,302 - INFO - Model and optimizer initialized.
+2024-09-25 08:00:30,332 - ERROR - Error during training: Module [MolVAE] is missing the required "forward" function
+2024-09-25 08:01:04,189 - INFO - VAE Training Started
+2024-09-25 08:01:04,189 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:01:10,419 - INFO - Data loaded and ready for training.
+2024-09-25 08:01:10,472 - INFO - Model and optimizer initialized.
+2024-09-25 08:01:12,537 - ERROR - Error during training: shape '[250, -1, 35]' is invalid for input of size 15030000
+2024-09-25 08:02:08,245 - INFO - VAE Training Started
+2024-09-25 08:02:08,245 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:02:14,489 - INFO - Data loaded and ready for training.
+2024-09-25 08:02:14,565 - INFO - Model and optimizer initialized.
+2024-09-25 08:02:16,546 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
+2024-09-25 08:02:38,282 - INFO - VAE Training Started
+2024-09-25 08:02:38,282 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:02:44,412 - INFO - Data loaded and ready for training.
+2024-09-25 08:02:44,479 - INFO - Model and optimizer initialized.
+2024-09-25 08:02:46,382 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
+2024-09-25 08:06:51,235 - INFO - VAE Training Started
+2024-09-25 08:06:51,235 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:06:57,642 - INFO - Data loaded and ready for training.
+2024-09-25 08:06:57,689 - INFO - Model and optimizer initialized.
+2024-09-25 08:11:27,266 - INFO - VAE Training Started
+2024-09-25 08:11:27,266 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:11:33,980 - INFO - Data loaded and ready for training.
+2024-09-25 08:11:34,058 - INFO - Model and optimizer initialized.
+2024-09-25 08:11:35,989 - ERROR - Error during training: Using a target size (torch.Size([1050000])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
+2024-09-25 08:16:35,465 - INFO - VAE Training Started
+2024-09-25 08:16:35,465 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 08:16:42,010 - INFO - Data loaded and ready for training.
+2024-09-25 08:16:42,162 - INFO - Model and optimizer initialized.
