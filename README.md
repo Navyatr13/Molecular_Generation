@@ -73,7 +73,6 @@ Training
 The training loop is implemented using PyTorch with the tqdm library to track progress. The model is trained with a combination of a reconstruction loss (binary cross-entropy) and a KL divergence loss.
 
 ### Example Output
-bash
 ```
 Epoch 1/100: 100%|██████████| 500/500 [00:20<00:00, 24.50batch/s, loss=0.056]
 End of Epoch 1: Train Loss 0.0456 ```
