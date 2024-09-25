@@ -51,13 +51,13 @@ python main.py
 
 ###  Configuration
 You can adjust hyperparameters like batch size, learning rate, number of epochs, and model architecture through the configs/config.yaml file:
-batch_size: 256
-learning_rate: 0.001
-epochs: 100
-model:
-  hidden_size: 512
-  latent_size: 128
-  num_layers: 3
+1. batch_size: 256
+   2. learning_rate: 0.001
+   3. epochs: 100
+   4. model:
+   hidden_size: 512
+     latent_size: 128
+     num_layers: 3
 ### Model Output
 After training, the model weights will be saved in the ./save/ directory, and the training logs can be found in the vae_training.log file.
 
