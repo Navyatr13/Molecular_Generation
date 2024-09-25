@@ -20,8 +20,6 @@ The goal of this project is to use a Variational Autoencoder (VAE) to generate n
 - **SMILES-based molecular generation**: Encode and decode molecular structures using SMILES strings.
 - **One-hot encoding of SMILES strings** for input to the VAE model.
 - **Configurable model architecture** using YAML configuration files.
-- **Mixed Precision Training** for faster performance (if enabled).
-- **Easy-to-use training script** with progress bars (via `tqdm`).
 
 ## Setup Instructions
 
