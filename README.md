@@ -10,7 +10,6 @@ This repository contains the implementation of a Variational Autoencoder (VAE) d
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Training](#training)
-- [License](#license)
 
 ## Overview
 
@@ -69,7 +68,7 @@ Once the model is trained, you can generate new molecular structures by decoding
 1. Encoder: The encoder maps the one-hot encoded SMILES string into a latent space using a series of convolutional layers and fully connected layers.
 2. Decoder: The decoder takes the latent vector and generates a new SMILES string using a GRU-based architecture.
 3. Latent Space: The latent space representation allows for generating new molecular structures by sampling from the distribution.
-Training
+### Training
 The training loop is implemented using PyTorch with the tqdm library to track progress. The model is trained with a combination of a reconstruction loss (binary cross-entropy) and a KL divergence loss.
 
 ### Example Output
