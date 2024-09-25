@@ -72,4 +72,8 @@ The training loop is implemented using PyTorch with the tqdm library to track pr
 ### Example Output
 ```
 Epoch 1/100: 100%|██████████| 500/500 [00:20<00:00, 24.50batch/s, loss=0.056]
-End of Epoch 1: Train Loss 0.0456 ```
+End of Epoch 1: Train Loss 0.0456 
+```
+
+### Sample output 
+After training the model, load the pretrained model to generate the molecules for the target of interest. Make sure the file is placed in the data folder. 
