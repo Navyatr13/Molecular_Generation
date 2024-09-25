@@ -6,15 +6,20 @@ model:
   gru_output_size: 501
 
 training:
-  batch_size: 250
-  epochs: 100
+  batch_size: 64
+  epochs: 5
   learning_rate: 0.001
   optimizer: "adam"
+  checkpoint_path : './save/vae_model.pth'
+  fine_tune: True
+  fine_tune_learning_rate : 0.0001
+  fine_tune_epochs : 10
 
 data:
-  dataset_path: './data/250k.npz'
+  inputsaved_features : './data/sample_data.npz'
+  input_dataset_path: './data/sample_data.csv'
+  target_dataset_path : './data/egfr_data.csv'
+  target_saved_features: './data/target_data.npz'
   save_model_path: './save/vae_model.pth'
-  charset: [' ', '#', '(', ')', '+', '-', '/', '1', '2', '3', '4', '5', '6', '7',
-           '8', '=', '@', 'B', 'C', 'F', 'H', 'I', 'N', 'O', 'P', 'S', '[', '\\', ']',
-           'c', 'l', 'n', 'o', 'r', 's']
+  charset: [' ', '#', '(', ')', '+', '-', '/', '1', '2', '3', '4', '5', '6', '7','8', '=', '@', 'B', 'C', 'F', 'H', 'I', 'N', 'O', 'P', 'S', '[', '\\', ']','c', 'l', 'n', 'o', 'r', 's']
   pad_length: 120

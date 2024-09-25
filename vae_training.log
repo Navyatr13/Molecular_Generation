@@ -1,50 +1,282 @@
-2024-09-25 07:54:46,394 - INFO - VAE Training Started
-2024-09-25 07:54:46,394 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 07:54:53,331 - INFO - Data loaded and ready for training.
-2024-09-25 07:54:53,409 - INFO - Model and optimizer initialized.
-2024-09-25 07:54:55,679 - ERROR - Error during training: Using a target size (torch.Size([1050000])) that is different
-to the input size (torch.Size([30000, 35])) is deprecated.
-Please ensure they have the same size.
-2024-09-25 07:56:01,072 - INFO - VAE Training Started
-2024-09-25 07:56:01,072 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 07:56:07,358 - INFO - Data loaded and ready for training.
-2024-09-25 07:56:07,404 - INFO - Model and optimizer initialized.
-2024-09-25 07:56:09,421 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
-2024-09-25 07:56:23,200 - INFO - VAE Training Started
-2024-09-25 07:56:23,200 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 07:56:29,570 - INFO - Data loaded and ready for training.
-2024-09-25 07:56:29,648 - INFO - Model and optimizer initialized.
-2024-09-25 07:56:31,599 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
-2024-09-25 08:00:23,903 - INFO - VAE Training Started
-2024-09-25 08:00:23,903 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:00:30,237 - INFO - Data loaded and ready for training.
-2024-09-25 08:00:30,302 - INFO - Model and optimizer initialized.
-2024-09-25 08:00:30,332 - ERROR - Error during training: Module [MolVAE] is missing the required "forward" function
-2024-09-25 08:01:04,189 - INFO - VAE Training Started
-2024-09-25 08:01:04,189 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:01:10,419 - INFO - Data loaded and ready for training.
-2024-09-25 08:01:10,472 - INFO - Model and optimizer initialized.
-2024-09-25 08:01:12,537 - ERROR - Error during training: shape '[250, -1, 35]' is invalid for input of size 15030000
-2024-09-25 08:02:08,245 - INFO - VAE Training Started
-2024-09-25 08:02:08,245 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:02:14,489 - INFO - Data loaded and ready for training.
-2024-09-25 08:02:14,565 - INFO - Model and optimizer initialized.
-2024-09-25 08:02:16,546 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
-2024-09-25 08:02:38,282 - INFO - VAE Training Started
-2024-09-25 08:02:38,282 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:02:44,412 - INFO - Data loaded and ready for training.
-2024-09-25 08:02:44,479 - INFO - Model and optimizer initialized.
-2024-09-25 08:02:46,382 - ERROR - Error during training: Using a target size (torch.Size([250, 120, 35])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
-2024-09-25 08:06:51,235 - INFO - VAE Training Started
-2024-09-25 08:06:51,235 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:06:57,642 - INFO - Data loaded and ready for training.
-2024-09-25 08:06:57,689 - INFO - Model and optimizer initialized.
-2024-09-25 08:11:27,266 - INFO - VAE Training Started
-2024-09-25 08:11:27,266 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:11:33,980 - INFO - Data loaded and ready for training.
-2024-09-25 08:11:34,058 - INFO - Model and optimizer initialized.
-2024-09-25 08:11:35,989 - ERROR - Error during training: Using a target size (torch.Size([1050000])) that is different to the input size (torch.Size([30000, 35])) is deprecated. Please ensure they have the same size.
-2024-09-25 08:16:35,465 - INFO - VAE Training Started
-2024-09-25 08:16:35,465 - INFO - Loading encoded data from ./data/250k.npz...
-2024-09-25 08:16:42,010 - INFO - Data loaded and ready for training.
-2024-09-25 08:16:42,162 - INFO - Model and optimizer initialized.
+2024-09-25 17:35:03,897 - INFO - VAE Training Started
+2024-09-25 17:35:03,897 - INFO - ./data/250k.npz not found. Loading SMILES data from CSV...
+2024-09-25 17:35:04,322 - INFO - One-hot encoding SMILES data...
+2024-09-25 17:48:07,715 - INFO - VAE Training Started
+2024-09-25 17:48:07,717 - INFO - ./data/250k.npz not found. Loading SMILES data from CSV...
+2024-09-25 17:48:07,717 - ERROR - Error loading SMILES from CSV: [Errno 2] No such file or directory: './data/sample_data.csv'
+2024-09-25 17:48:53,396 - INFO - VAE Training Started
+2024-09-25 17:48:53,471 - INFO - ./data/250k.npz not found. Loading SMILES data from CSV...
+2024-09-25 17:48:53,565 - INFO - One-hot encoding SMILES data...
+2024-09-25 17:49:05,321 - INFO - Encoded data saved to ./data/250k.npz
+2024-09-25 17:49:05,496 - INFO - Data loaded and ready for training.
+2024-09-25 17:49:16,112 - INFO - Model and optimizer initialized.
+2024-09-25 17:49:16,114 - INFO - VAE Training Started...
+2024-09-25 17:49:16,911 - ERROR - Error during training: Input type (long int) and bias type (float) should be the same
+2024-09-25 17:51:27,783 - INFO - VAE Training Started
+2024-09-25 17:51:27,785 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 17:51:28,003 - INFO - Data loaded and ready for training.
+2024-09-25 17:51:29,801 - INFO - Model and optimizer initialized.
+2024-09-25 17:51:29,801 - INFO - VAE Training Started...
+2024-09-25 17:51:30,108 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 17:53:12,281 - INFO - VAE Training Started
+2024-09-25 17:53:12,284 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 17:53:12,521 - INFO - Data loaded and ready for training.
+2024-09-25 17:53:14,379 - INFO - Model and optimizer initialized.
+2024-09-25 17:53:14,381 - INFO - VAE Training Started...
+2024-09-25 17:53:14,626 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 17:55:18,273 - INFO - VAE Training Started
+2024-09-25 17:55:18,276 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 17:55:18,462 - INFO - Data loaded and ready for training.
+2024-09-25 17:55:20,050 - INFO - Model and optimizer initialized.
+2024-09-25 17:55:20,050 - INFO - VAE Training Started...
+2024-09-25 17:55:20,335 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 103, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 29, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 17:56:24,531 - INFO - VAE Training Started
+2024-09-25 17:56:24,535 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 17:56:24,768 - INFO - Data loaded and ready for training.
+2024-09-25 17:56:26,381 - INFO - Model and optimizer initialized.
+2024-09-25 17:56:26,381 - INFO - VAE Training Started...
+2024-09-25 17:56:26,628 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 103, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 17:59:34,655 - INFO - VAE Training Started
+2024-09-25 17:59:34,665 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 17:59:34,928 - INFO - Data loaded and ready for training.
+2024-09-25 17:59:36,874 - INFO - Model and optimizer initialized.
+2024-09-25 17:59:36,874 - INFO - VAE Training Started...
+2024-09-25 17:59:37,164 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 103, in main
+    # Train the VAE with validation
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:00:11,544 - INFO - VAE Training Started
+2024-09-25 18:00:11,547 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:00:11,695 - INFO - Data loaded and ready for training.
+2024-09-25 18:00:13,615 - INFO - Model and optimizer initialized.
+2024-09-25 18:00:13,615 - INFO - VAE Training Started...
+2024-09-25 18:00:13,787 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 106, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:00:46,440 - INFO - VAE Training Started
+2024-09-25 18:00:46,443 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:00:46,632 - INFO - Data loaded and ready for training.
+2024-09-25 18:00:48,441 - INFO - Model and optimizer initialized.
+2024-09-25 18:00:48,441 - INFO - VAE Training Started...
+2024-09-25 18:00:48,572 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 106, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:07:10,489 - INFO - VAE Training Started
+2024-09-25 18:07:10,490 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:07:10,693 - INFO - Data loaded and ready for training.
+2024-09-25 18:07:12,978 - INFO - Model and optimizer initialized.
+2024-09-25 18:07:12,982 - INFO - VAE Training Started...
+2024-09-25 18:07:13,143 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 106, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:08:33,643 - INFO - VAE Training Started
+2024-09-25 18:08:33,645 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:08:51,334 - INFO - VAE Training Started
+2024-09-25 18:08:51,335 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:08:51,486 - INFO - Data loaded and ready for training.
+2024-09-25 18:08:53,349 - INFO - Model and optimizer initialized.
+2024-09-25 18:08:53,350 - INFO - VAE Training Started...
+2024-09-25 18:08:53,484 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 107, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:09:35,561 - INFO - VAE Training Started
+2024-09-25 18:09:35,563 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:09:35,785 - INFO - Data loaded and ready for training.
+2024-09-25 18:09:37,587 - INFO - Model and optimizer initialized.
+2024-09-25 18:09:37,587 - INFO - VAE Training Started...
+2024-09-25 18:09:37,741 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 107, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:09:56,775 - INFO - VAE Training Started
+2024-09-25 18:09:56,776 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:09:56,978 - INFO - Data loaded and ready for training.
+2024-09-25 18:09:58,574 - INFO - Model and optimizer initialized.
+2024-09-25 18:09:58,574 - INFO - VAE Training Started...
+2024-09-25 18:09:58,687 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 107, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:10:14,570 - INFO - VAE Training Started
+2024-09-25 18:10:14,572 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:10:14,753 - INFO - Data loaded and ready for training.
+2024-09-25 18:10:16,079 - INFO - Model and optimizer initialized.
+2024-09-25 18:10:16,079 - INFO - VAE Training Started...
+2024-09-25 18:10:16,153 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 107, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:10:37,546 - INFO - VAE Training Started
+2024-09-25 18:10:37,548 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:10:37,720 - INFO - Data loaded and ready for training.
+2024-09-25 18:10:39,194 - INFO - Model and optimizer initialized.
+2024-09-25 18:10:39,194 - INFO - VAE Training Started...
+2024-09-25 18:10:39,278 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 107, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:10:49,403 - INFO - VAE Training Started
+2024-09-25 18:10:49,405 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:10:49,532 - INFO - Data loaded and ready for training.
+2024-09-25 18:10:50,785 - INFO - Model and optimizer initialized.
+2024-09-25 18:10:50,785 - INFO - VAE Training Started...
+2024-09-25 18:10:50,883 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 107, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:12:48,645 - INFO - VAE Training Started
+2024-09-25 18:12:48,647 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:15:13,271 - INFO - VAE Training Started
+2024-09-25 18:15:13,274 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:15:13,555 - INFO - Data loaded and ready for training.
+2024-09-25 18:15:15,335 - INFO - Model and optimizer initialized.
+2024-09-25 18:15:15,335 - INFO - VAE Training Started...
+2024-09-25 18:15:15,495 - ERROR - Error during training: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+Traceback (most recent call last):
+  File "main.py", line 111, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 30, in train_vae
+    data = data[0].transpose(1, 2).to(device)
+IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+2024-09-25 18:17:42,297 - INFO - VAE Training Started
+2024-09-25 18:17:42,302 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:18:37,515 - INFO - VAE Training Started
+2024-09-25 18:18:37,519 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:19:04,369 - INFO - VAE Training Started
+2024-09-25 18:19:04,372 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:21:41,420 - INFO - VAE Training Started
+2024-09-25 18:21:41,426 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:21:41,752 - INFO - Data loaded and ready for training.
+2024-09-25 18:21:43,939 - INFO - Model and optimizer initialized.
+2024-09-25 18:21:43,941 - INFO - VAE Training Started...
+2024-09-25 18:35:30,565 - INFO - VAE Training Started
+2024-09-25 18:35:30,568 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:35:30,749 - INFO - Data loaded and ready for training.
+2024-09-25 18:35:32,908 - INFO - Model and optimizer initialized.
+2024-09-25 18:35:32,908 - INFO - VAE Training Started...
+2024-09-25 18:39:13,312 - INFO - VAE Training Started
+2024-09-25 18:39:13,312 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:39:13,390 - INFO - Data loaded and ready for training.
+2024-09-25 18:39:13,930 - INFO - Model and optimizer initialized.
+2024-09-25 18:39:13,931 - INFO - VAE Training Started...
+2024-09-25 18:40:45,797 - INFO - VAE Training Started
+2024-09-25 18:40:45,797 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:41:18,747 - INFO - VAE Training Started
+2024-09-25 18:41:18,747 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:41:18,825 - INFO - Data loaded and ready for training.
+2024-09-25 18:41:20,062 - INFO - Model and optimizer initialized.
+2024-09-25 18:41:20,062 - INFO - VAE Training Started...
+2024-09-25 18:42:08,314 - INFO - VAE Training Started
+2024-09-25 18:42:08,314 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:42:08,393 - INFO - Data loaded and ready for training.
+2024-09-25 18:42:09,637 - INFO - Model and optimizer initialized.
+2024-09-25 18:42:09,637 - INFO - VAE Training Started...
+2024-09-25 18:46:10,824 - INFO - VAE Training Started
+2024-09-25 18:46:10,824 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:46:10,903 - INFO - Data loaded and ready for training.
+2024-09-25 18:46:12,141 - INFO - Model and optimizer initialized.
+2024-09-25 18:46:12,141 - INFO - VAE Training Started...
+2024-09-25 18:46:25,281 - ERROR - Error during training: name 'epoch' is not defined
+Traceback (most recent call last):
+  File "main.py", line 111, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 40, in train_vae
+    print(f'Epoch {epoch} / Batch {batch_idx}: Loss {loss:.4f}')
+NameError: name 'epoch' is not defined
+2024-09-25 18:48:27,850 - INFO - VAE Training Started
+2024-09-25 18:48:27,850 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:48:27,928 - INFO - Data loaded and ready for training.
+2024-09-25 18:48:29,144 - INFO - Model and optimizer initialized.
+2024-09-25 18:48:29,144 - INFO - VAE Training Started...
+2024-09-25 18:49:12,320 - ERROR - Error during training: name 'time' is not defined
+Traceback (most recent call last):
+  File "main.py", line 111, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 48, in train_vae
+    epoch_time = time.time() - start_time
+NameError: name 'time' is not defined
+2024-09-25 18:51:01,910 - INFO - VAE Training Started
+2024-09-25 18:51:01,910 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:51:01,989 - INFO - Data loaded and ready for training.
+2024-09-25 18:51:03,213 - INFO - Model and optimizer initialized.
+2024-09-25 18:51:03,213 - INFO - VAE Training Started...
+2024-09-25 18:51:56,078 - ERROR - Error during training: name 'start_time' is not defined
+Traceback (most recent call last):
+  File "main.py", line 111, in main
+    trained_model = train_vae(model, train_loader, val_loader, optimizer, device, epochs=config['training']['epochs'])
+  File "/home/ubuntu/Desktop/file/train_vae.py", line 49, in train_vae
+    epoch_time = time.time() - start_time
+NameError: name 'start_time' is not defined
+2024-09-25 18:56:10,386 - INFO - VAE Training Started
+2024-09-25 18:56:10,386 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:56:10,462 - INFO - Data loaded and ready for training.
+2024-09-25 18:56:11,714 - INFO - Model and optimizer initialized.
+2024-09-25 18:56:11,714 - INFO - VAE Training Started...
+2024-09-25 18:59:15,317 - INFO - VAE Training Started
+2024-09-25 18:59:15,317 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:59:15,394 - INFO - Data loaded and ready for training.
+2024-09-25 18:59:15,916 - INFO - Model and optimizer initialized.
+2024-09-25 18:59:15,917 - INFO - VAE Training Started...
+2024-09-25 18:59:53,409 - INFO - VAE Training Started
+2024-09-25 18:59:53,409 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 18:59:53,486 - INFO - Data loaded and ready for training.
+2024-09-25 18:59:54,038 - INFO - Model and optimizer initialized.
+2024-09-25 18:59:54,038 - INFO - VAE Training Started...
+2024-09-25 19:01:54,510 - INFO - VAE Training Started
+2024-09-25 19:01:54,511 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 19:01:54,588 - INFO - Data loaded and ready for training.
+2024-09-25 19:01:55,124 - INFO - Model and optimizer initialized.
+2024-09-25 19:01:55,124 - INFO - VAE Training Started...
+2024-09-25 19:02:57,696 - INFO - VAE Training Started
+2024-09-25 19:02:57,697 - INFO - Loading encoded data from ./data/250k.npz...
+2024-09-25 19:02:57,773 - INFO - Data loaded and ready for training.
+2024-09-25 19:02:58,307 - INFO - Model and optimizer initialized.
+2024-09-25 19:02:58,308 - INFO - VAE Training Started...
+2024-09-25 19:21:38,557 - INFO - VAE Training Completed
+2024-09-25 19:21:38,578 - INFO - Model saved successfully.
